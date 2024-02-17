@@ -1,0 +1,33 @@
+﻿^XA
+
+^FX Seção superior com logo, nome e endereço.
+^CF0,60
+^FO50,50^GB100,100,100^FS
+^FO75,75^FR^GB100,100,100^FS
+^FO93,93^GB40,40,40^FS
+^FO220,50^FDEmpresa Exemplo^FS
+^CF0,30
+^FO220,115^FD123 Rua do Comércio^FS
+^FO220,155^FDCEP: 12345-678, Cidade Exemplo^FS
+^FO220,195^FDPaís Exemplo^FS
+^FO50,250^GB700,3,3^FS
+
+^FX Segunda seção com endereço do destinatário.
+^CFA,30
+^FO50,300^FDDestinatário: Maria Silva^FS
+^FO50,340^FDRua das Flores, 456^FS
+^FO50,380^FDCEP: 54321-987, Cidade do Destinatário^FS
+^FO50,420^FPaís do Destinatário^FS
+^CFA,15
+^FO50,500^GB700,3,3^FS
+
+^FX Terceira seção com informações do produto e peso.
+^CFA,30
+^FO50,550^FDProduto: {produto}
+^FO50,590^FDPeso: {peso}^FS
+
+^FX Quarta seção com código de barras.
+^BY5,2,270
+^FO100,630^BC^FD12345678^FS
+
+^XZ
