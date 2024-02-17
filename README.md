@@ -7,7 +7,7 @@ Este projeto é uma Web API desenvolvida em C# que simplifica o processo de impr
 1. Clone o repositório em sua máquina local:
     `git clone https://github.com/darklinnux/PrintAPI.git`
 2. Navegue até o diretório do projeto:
-    `cd nome-do-repositorio`
+    `cd PrintAPI`
 3. Restaure as dependências do projeto:
     `dotnet restore`
 4. Execute a aplicação:
